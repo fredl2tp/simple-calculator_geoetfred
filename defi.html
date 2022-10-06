@@ -10,17 +10,19 @@
     <h1>Simple calculator</h1>
     <p>Le but du jeu est de deviner un nombre entre 1 et 100.</p>
     <form id="form">
-        <label for="namePlayer">Name player:</label>
+        <label for="namePlayer">Quel est ton prénom ? : </label>
         <input
           type="text"
           name="firstname"
+          required
           placeholder="Elon"
           id="firstname"
         />
         <input type="submit" value="Jouer" />
-            <span><p>       </p></span>
+            <span><p>  </p></span>
             <label for="niveau">Choisir le nombre de coups :</label>
-            <select name="niveau" size="1" id="niveau">
+            <select name="niveau" required size="1" id="niveau">
+                <option>
                 <option>01
                 <option>02
                 <option>03
