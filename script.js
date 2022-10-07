@@ -20,7 +20,7 @@
         
         let firstValue
         let compteur = 0;
-                while (firstValue !== random)
+                while (firstValue != random)
                 {
                         /*incrément du compteur*/
                         compteur = compteur + 1
@@ -55,4 +55,5 @@
                                     break;
                                 }
                 }
+
     }
