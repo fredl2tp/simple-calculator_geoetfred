@@ -29,7 +29,7 @@
                                 {
                                     if(isNaN(saisie) || saisie.length===0 || saisie < 1 || saisie > 100)
                                     {      
-                                    saisie = verif(prompt("Recommence, ce n'est pas un nombre entre 1et 100 !"));
+                                    saisie = verif(prompt("Recommence, ce n'est pas un nombre entre 1 et 100 !"));
                                     }
                                     return saisie;
                                 }
